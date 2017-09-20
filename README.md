@@ -1,0 +1,2 @@
+# stockAI
+just a repos
