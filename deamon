@@ -1,0 +1,63 @@
+1.机器学习的概念，与统计，AI等的区别
+2.perceptron learning Algorithm -PLA 感知器学习算法
+  线性可分与非线性可分
+3.
+  多类别
+  监督式学习     直接告诉结果
+  非监督学习     不告诉结果，让机器自己学习
+文章分类，交通事故报告->危险区域，网络日志->入侵警告
+
+  半监督学习     只给出部分结果
+照片标记->面部识别，药物标记->药物有效性预测
+利用未标记的数据避免花钱的标记动作
+  强化学习 reinforcement learning 
+
+batch学习    一批数据给机器    一般是PLA
+online学习   比如一封一封邮件，喂给机器，让机器学习，属于增强型学习
+active学习   主动学习，近年新增
+通过不同输入进行学习
+有型的 未加工的 抽象的
+举例 数字识别
+     抽象特征 越抽象，学习难度越高 
+4.机器学习无法做到的
+
+如何在某些时候加上条件，让机器可以实现
+概率问题，
+  一大瓶中有橙色和绿色的两种球，随机多次抽取，取得他们的比率
+  
+5.positive rays:
+        m(N)=N+1
+        m(2)=3<power(2,2): break point at 2
+  positive intervals:
+        m(N)=1/2*power(N,2)+1/2*N+1
+        m(3)=7<power(2,3): break point at 3
+  convex sets:
+        m(N)=power(2,N)
+        m(N)=power(2,N) always:no break point
+  2D:
+        m(N)<power(2,N) in some cases
+        m(4)=14<power(2,4):break point at 4
+增长方式 设置breakpoint 快速成长
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
